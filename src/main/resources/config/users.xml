@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dyumell" class="bibliothecadyumellis.spring.core.bean.User">
+        <!-- ID -->
+        <!-- 	The id attribute is a string that identifies the individual bean definition. -->
+        <!--    The value of the id attribute can be used to refer to collaborating objects. -->
+        <!-- Class -->
+        <!-- 	The class attribute defines the type of the bean and uses the fully qualified class name. -->
+        <property name="userID" value="dyumell"/>
+        <!-- Property -->
+        <!--     The property of JavaBean  -->
+        <!-- Name -->
+        <!--     The name of the property of JavaBean  -->
+        <!--     It must have Setter method, FOR SPRING IOC CONTAINER USE REFLEXION  -->
+        <property name="name" value="SeongBin"/>
+    </bean>
+
+    <bean id="earlgrey02" class="bibliothecadyumellis.spring.core.bean.User">
+        <property name="userID" value="earlgrey02"/>
+        <property name="name" value="Sangyun"/>
+    </bean>
+
+    <bean id="sunso514" class="bibliothecadyumellis.spring.core.bean.User">
+        <property name="userID" value="sunso514"/>
+        <property name="name" value="Donghyeon"/>
+    </bean>
+
+    <bean id="fbwoduf112" class="bibliothecadyumellis.spring.core.bean.User">
+        <property name="userID" value="fbwoduf112"/>
+        <property name="name" value="Jaeyeol"/>
+    </bean>
+</beans>
